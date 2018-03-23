@@ -1,0 +1,116 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+  height: 100%;
+  overflow: auto;
+  margin: 0px;
+
+}
+
+
+.logo{
+  display: inline;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+#navigation {
+  color: white;
+  background-color: #682123;
+  font-size: 20px;
+}
+
+#navigation a{
+  color: white;
+  background-color: #682123;
+  text-decoration: none;
+}
+
+#header{
+  background-color: #682123;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+#app{
+  margin-top: 10px;
+  text-align: center;
+}
+.appSize{
+  font-size: 30px;
+}
+
+.head{
+  text-align: center;
+  color: #682123;
+  font-size: 30px;
+}
+
+input {
+  border: 1px solid #682123;
+  width: 25%;
+  font-size: 30px;
+
+}
+.addBtn{
+  background-color: #ffffff;
+  color: #682123;
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    transition: 0.2s;
+
+}
+
+ul li:nth-child(odd) {
+    background: #682123;
+    color: white;
+}
+
+ul li:hover {
+    background: #ddd;
+    color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+ ul li.checked{
+  text-decoration: line-through;
+  color: pink;
+}
